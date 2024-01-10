@@ -25,6 +25,7 @@ public class ScannerWhileEx4 {
                 System.out.println("상품명 : "+str+", 가격 : "+price+", 수량 : "+count+", 합계 : "+price*count);
             } else if (menu == 2) {
                 System.out.println("총 금액 : "+totalPrice);
+                totalPrice = 0;
             } else if (menu == 3) {
                 System.out.println("프로그램을 종료합니다.");
                 break;
